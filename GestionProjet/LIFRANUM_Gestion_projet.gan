@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="HN_LIFRANUM_Gestion Projet" company="Master HN" webLink="http://" view-date="2022-10-10" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.11" locale="fr">
+    <description><![CDATA[
+Retroplanning pour la gestion du temps concernant la commande LIFRANUM]]></description>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="158" order="0"/>
+        <field id="tpd4" name="Date de début" width="62" order="1"/>
+        <field id="tpd5" name="Date de fin" width="61" order="2"/>
+        <option id="taskLabelUp" value="name"/>
+        <option id="taskLabelDown" value="length"/>
+        <option id="taskLabelLeft" value=""/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY"><![CDATA[New Year's Day]]></date>
+        <date year="" month="5" date="1" type="HOLIDAY"><![CDATA[Labour Day]]></date>
+        <date year="" month="5" date="8" type="HOLIDAY"><![CDATA[V-E Day]]></date>
+        <date year="" month="7" date="14" type="HOLIDAY"><![CDATA[Bastille Day]]></date>
+        <date year="" month="8" date="15" type="HOLIDAY"><![CDATA[Assumption Day]]></date>
+        <date year="" month="11" date="1" type="HOLIDAY"><![CDATA[All Saints Day]]></date>
+        <date year="" month="11" date="11" type="HOLIDAY"><![CDATA[Armistice Day]]></date>
+        <date year="" month="12" date="25" type="HOLIDAY"><![CDATA[Christmas Day]]></date>
+        <date year="2008" month="5" date="12" type="HOLIDAY"><![CDATA[Whitmonday]]></date>
+        <date year="2009" month="6" date="1" type="HOLIDAY"><![CDATA[Whitmonday]]></date>
+        <date year="2009" month="7" date="13" type="NEUTRAL"><![CDATA[Bastille Day]]></date>
+        <date year="2010" month="4" date="5" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2010" month="5" date="13" type="HOLIDAY"><![CDATA[Ascension Day]]></date>
+        <date year="2010" month="5" date="24" type="HOLIDAY"><![CDATA[Whitmonday]]></date>
+        <date year="2011" month="4" date="25" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2011" month="5" date="29" type="NEUTRAL"><![CDATA[Mothers Day]]></date>
+        <date year="2011" month="6" date="2" type="HOLIDAY"><![CDATA[Ascension Day]]></date>
+        <date year="2011" month="6" date="13" type="HOLIDAY"><![CDATA[Whitmonday]]></date>
+        <date year="2011" month="6" date="19" type="NEUTRAL"><![CDATA[Fathers Day]]></date>
+        <date year="2012" month="1" date="2" type="HOLIDAY"><![CDATA[New Years Day (in lieu)]]></date>
+        <date year="2012" month="4" date="9" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2012" month="5" date="17" type="HOLIDAY"><![CDATA[Ascension Day]]></date>
+        <date year="2012" month="5" date="28" type="HOLIDAY"><![CDATA[Whitmonday]]></date>
+        <date year="2012" month="6" date="3" type="NEUTRAL"><![CDATA[Mothers Day]]></date>
+        <date year="2012" month="6" date="17" type="NEUTRAL"><![CDATA[Fathers Day]]></date>
+        <date year="2012" month="11" date="12" type="HOLIDAY"><![CDATA[Armistice Day (in Lieu)]]></date>
+        <date year="2012" month="12" date="25" type="HOLIDAY"><![CDATA[Christmas Day]]></date>
+        <date year="2013" month="4" date="1" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2013" month="5" date="9" type="HOLIDAY"><![CDATA[Ascension Day]]></date>
+        <date year="2013" month="5" date="20" type="HOLIDAY"><![CDATA[Whitmonday]]></date>
+        <date year="2013" month="5" date="26" type="NEUTRAL"><![CDATA[Mothers Day]]></date>
+        <date year="2013" month="6" date="16" type="NEUTRAL"><![CDATA[Fathers Day]]></date>
+        <date year="2014" month="4" date="21" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2014" month="5" date="25" type="NEUTRAL"><![CDATA[Mothers Day]]></date>
+        <date year="2014" month="5" date="29" type="NEUTRAL"><![CDATA[Ascension Day]]></date>
+        <date year="2014" month="6" date="9" type="HOLIDAY"><![CDATA[Whitmonday]]></date>
+        <date year="2014" month="6" date="15" type="HOLIDAY"><![CDATA[Fathers Day]]></date>
+        <date year="2015" month="4" date="6" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2015" month="5" date="14" type="HOLIDAY"><![CDATA[Ascension Day]]></date>
+        <date year="2015" month="5" date="24" type="NEUTRAL"><![CDATA[Mothers Day]]></date>
+        <date year="2015" month="5" date="25" type="HOLIDAY"><![CDATA[Whitmonday]]></date>
+        <date year="2015" month="6" date="21" type="NEUTRAL"><![CDATA[Fathers Day]]></date>
+        <date year="2016" month="3" date="28" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2016" month="5" date="5" type="HOLIDAY"><![CDATA[Ascension Day]]></date>
+        <date year="2016" month="5" date="16" type="HOLIDAY"><![CDATA[Whitmonday]]></date>
+        <date year="2016" month="5" date="29" type="NEUTRAL"><![CDATA[Mothers Day]]></date>
+        <date year="2016" month="6" date="19" type="NEUTRAL"><![CDATA[Fathers Day]]></date>
+        <date year="2016" month="12" date="26" type="HOLIDAY"><![CDATA[Christmas Day (observed)]]></date>
+        <date year="2017" month="4" date="17" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2017" month="5" date="25" type="HOLIDAY"><![CDATA[Ascension Day]]></date>
+        <date year="2017" month="5" date="28" type="NEUTRAL"><![CDATA[Mother's Day]]></date>
+        <date year="2017" month="6" date="5" type="HOLIDAY"><![CDATA[Whitmonday]]></date>
+        <date year="2017" month="6" date="18" type="NEUTRAL"><![CDATA[Father's Day]]></date>
+        <date year="2018" month="4" date="2" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2018" month="5" date="10" type="HOLIDAY"><![CDATA[Ascension Day]]></date>
+        <date year="2018" month="5" date="21" type="HOLIDAY"><![CDATA[Whit Monday]]></date>
+        <date year="2018" month="5" date="27" type="NEUTRAL"><![CDATA[Mother's Day]]></date>
+        <date year="2018" month="6" date="17" type="NEUTRAL"><![CDATA[Father's Day]]></date>
+        <date year="2019" month="4" date="22" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2019" month="5" date="30" type="HOLIDAY"><![CDATA[Ascension Day]]></date>
+        <date year="2019" month="6" date="10" type="HOLIDAY"><![CDATA[Whit Monday]]></date>
+        <date year="2019" month="5" date="26" type="NEUTRAL"><![CDATA[Mother's Day]]></date>
+        <date year="2019" month="6" date="16" type="NEUTRAL"><![CDATA[Father's Day]]></date>
+        <date year="2020" month="4" date="13" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2020" month="5" date="21" type="HOLIDAY"><![CDATA[Ascension Day]]></date>
+        <date year="2020" month="6" date="1" type="HOLIDAY"><![CDATA[Whit Monday]]></date>
+        <date year="2020" month="6" date="7" type="NEUTRAL"><![CDATA[Mother's Day]]></date>
+        <date year="2020" month="6" date="21" type="NEUTRAL"><![CDATA[Father's Day]]></date>
+        <date year="2021" month="4" date="5" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2021" month="5" date="13" type="HOLIDAY"><![CDATA[Ascension Day]]></date>
+        <date year="2021" month="5" date="24" type="HOLIDAY"><![CDATA[Whit Monday]]></date>
+        <date year="2021" month="5" date="30" type="NEUTRAL"><![CDATA[Mother's Day]]></date>
+        <date year="2021" month="6" date="20" type="NEUTRAL"><![CDATA[Father's Day]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Réunion de démarrage" color="#8cb6ce" meeting="false" start="2022-10-20" duration="1" complete="0" thirdDate="2022-10-20" thirdDate-constraint="0" expand="true">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" name="Exploration des données_1" color="#8cb6ce" meeting="false" start="2022-10-21" duration="4" complete="0" thirdDate="2022-10-18" thirdDate-constraint="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" name="Réunion avec l'équipe commanditaire" color="#8cb6ce" meeting="false" start="2022-10-26" duration="1" complete="0" thirdDate="2022-10-20" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Réunion avec Madame Pantel et éventuellement le reste de l'équipe commanditaire pour vailder la forme du rendu et le travauil de fond ]]></notes>
+        </task>
+        <task id="10" name="recherche_techniques_méthodologie" color="#8cb6ce" meeting="false" start="2022-10-26" duration="4" complete="0" thirdDate="2022-10-18" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[recherche sur les théories, les techniques et la méthodologie à adopter
+
+
+
+Validation_definitive]]></notes>
+            <depend id="35" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="35" name="Validation_definitive_methodo" color="#8cb6ce" meeting="false" start="2022-10-31" duration="1" complete="0" thirdDate="2022-10-18" thirdDate-constraint="0" expand="true">
+            <depend id="38" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="38" name="Traitement des données 1" color="#8cb6ce" meeting="false" start="2022-11-02" duration="9" complete="0" thirdDate="2022-10-18" thirdDate-constraint="0" expand="true">
+            <depend id="43" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="43" name="réunion_étape_equipe_projet" color="#8cb6ce" meeting="false" start="2022-11-14" duration="1" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true">
+            <depend id="48" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="48" name="Traitement des données 2" color="#8cb6ce" meeting="false" start="2022-11-15" duration="14" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" expand="true">
+            <depend id="40" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="40" name="Traitement_avancé_données + visualisation + début rédaction 1" color="#8cb6ce" meeting="false" start="2022-12-01" duration="16" complete="0" thirdDate="2022-10-18" thirdDate-constraint="0" expand="true">
+            <depend id="57" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="57" name="réunion_étape_equipe_projet 2" color="#8cb6ce" meeting="false" start="2022-12-20" duration="1" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" expand="true">
+            <depend id="60" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="60" name="Traitement_avancé_données + visualisation + début rédaction 2" color="#8cb6ce" meeting="false" start="2022-12-21" duration="10" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" expand="true">
+            <depend id="74" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="74" name="Rédaction avancé + synthèse + correction" color="#8cb6ce" meeting="false" start="2023-01-02" duration="18" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" expand="true">
+            <depend id="76" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="76" name="Livrable final" color="#8cb6ce" meeting="false" start="2023-01-23" duration="1" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" expand="true">
+            <depend id="78" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="78" name="préparation_soutenance" color="#8cb6ce" meeting="false" start="2023-01-24" duration="6" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" expand="true">
+            <depend id="83" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="83" name="soutenance_projet" color="#8cb6ce" meeting="false" start="2023-01-31" duration="1" complete="0" thirdDate="2022-10-10" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
