@@ -941,7 +941,3 @@ cliquez
 site
 net
 org
-quelques 
-chez
-entre 
-cet
